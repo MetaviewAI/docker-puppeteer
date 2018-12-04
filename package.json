@@ -2,7 +2,7 @@
     "dependencies": {
         "puppeteer": "1.11.0"
     },
-    "description": "Minimal Docker image for running Puppeteer.",
+    "description": "A minimal Docker image with Google Puppeteer installed.",
     "license": "MIT",
     "repository": {
         "type": "git",
