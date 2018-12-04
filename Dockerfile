@@ -20,7 +20,8 @@ RUN apt-get update \
 ADD https://github.com/Yelp/dumb-init/releases/download/v1.2.0/dumb-init_1.2.0_amd64 /usr/local/bin/dumb-init
 RUN chmod +x /usr/local/bin/dumb-init
 
-RUN npm i puppeteer
+ADD package.json package-lock.json /
+RUN npm install
 
 RUN groupadd -r pptruser \
     && useradd -r -g pptruser -G audio,video pptruser \
@@ -30,6 +31,3 @@ RUN groupadd -r pptruser \
 
 # Run everything after as non-privileged user.
 USER pptruser
-
-ADD package.json package-lock.json /
-RUN npm install
