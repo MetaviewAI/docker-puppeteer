@@ -1,3 +1,7 @@
+# A minimal Docker image with Node and Puppeteer
+#
+# Based on https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md#running-puppeteer-in-docker
+
 FROM node:10.14-slim
 
 # See https://crbug.com/795759
