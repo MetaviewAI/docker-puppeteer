@@ -1,5 +1,11 @@
 {
     "dependencies": {
         "puppeteer": "1.11.0"
+    },
+    "description": "Minimal Docker image for running Puppeteer.",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:s16h/docker-puppeteer.git"
     }
 }
