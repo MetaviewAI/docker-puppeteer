@@ -27,5 +27,3 @@ RUN apt-get update && apt-get install -yq gconf-service libasound2 libatk1.0-0 l
 
 ADD package.json package-lock.json /
 RUN npm install
-
-ENTRYPOINT [ "xvfb-run" ]
