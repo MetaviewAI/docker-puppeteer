@@ -7,5 +7,5 @@ A minimal [Docker](https://www.docker.com/) image with [Google Puppeteer](https:
 The latest official build can be found on [Docker Hub](https://cloud.docker.com/repository/docker/metaview/puppeteer/). To build the image locally, clone this repository and run the following command:
 
 ```shell
-$ docker build -t metaview/docker-puppeteer .
+$ docker build -t metaview/puppeteer .
 ```
