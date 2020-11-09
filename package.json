@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "puppeteer": "5.4.1"
+    "puppeteer": "1.13.0"
   },
   "description": "A minimal Docker image with Google Puppeteer installed.",
   "license": "MIT",
