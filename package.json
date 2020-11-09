@@ -6,6 +6,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/metaview-analytics/docker-puppeteer.git"
+    "url": "https://github.com/MetaviewAI/docker-puppeteer.git"
   }
 }
