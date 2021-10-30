@@ -4,7 +4,7 @@
 #   - https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md#running-puppeteer-in-docker and
 #   - https://stackoverflow.com/questions/51667599/issue-in-executing-puppeteer-in-headful-mode-in-docker
 
-FROM node:17-slim
+FROM --platform=linux/amd64 node:17-slim
 
 # Install latest chrome dev package and fonts to support major charsets (Chinese, Japanese, Arabic, Hebrew, Thai and a few others)
 # Note: this installs the necessary libs to make the bundled version of Chromium that Puppeteer installs, work.
