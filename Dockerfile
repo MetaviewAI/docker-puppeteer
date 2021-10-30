@@ -29,4 +29,5 @@ RUN npm install puppeteer@10.1.0 \
     && chown -R pptruser:pptruser /home/pptruser \
     && chown -R pptruser:pptruser /node_modules
 
+# Run everything after as non-privileged user.
 USER pptruser
